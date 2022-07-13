@@ -2,8 +2,11 @@
 <html>
    <body>
       <video autoplay loop>
-         <source src="loading.mp4" type="video/mp4">
+         <source src="loading.mp4" type="video/mp4" id="vid">
          Your browser does not support the video tag or format.
        </video>
+       <script>
+         document.getElementById('vid').play();
+     </script>
    </body>
 </html>
